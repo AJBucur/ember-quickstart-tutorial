@@ -2,6 +2,7 @@ import Route from '@ember/routing/route';
 
 export default Route.extend({
      model() {
-         return ['Marie Curie','Mae Jemison', 'Albert Hoffman']
+         return ['Marie Curie','Mae Jemison', 'Albert Hoffman',
+                'Albert Einstein', 'Carl Sagan', 'Stephen Hawking']
      }
 });
